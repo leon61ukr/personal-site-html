@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main</title>
+    <link rel="stylesheet" href="css/index.css">
+        
+        <!--Favicon-->
+        <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <!--FaviconEnd-->
+        
+<!--temporary testing
+        <style type="text/css">
+        	.block {
+        	padding: 0;
+        	font-size: 14px;
+        	}
+        	.block .element{
+        	border: solid 1px #C7CADD;
+        	margin: 0px 3px 3px 0px;
+        	padding: 0px 0px 0px 0px;
+        	float: left;
+        	height: 200px;
+        	width: 150px;
+        	}
+        	.block .element:hover{
+        	border: solid 1px #000;
+        	margin: 0px 3px 3px 0px;
+        	padding: 0;
+        	float: left;
+        	height: 200px;
+        	width: 150px;
+        	background: #FFFAE7;
+        	}
+        	.block .img{
+        	text-decoration: none;
+        	}
+        	.block .img img{
+        	margin: 5px 0px 0px 5px;
+        	padding: 0;
+        	width: 140px;
+        	height: 130px;
+        	}
+        	.block .text{
+        	text-align: center;
+        	padding: 0;
+        	margin: 0;
+        	}
+        </style>
+END-->
+
+</head>
+<body>
+    <div class="navbar">
+      <a href="#main">Main</a>
+      <a href="#about">About</a>
+              <div class="dropdown">
+                <button class="dropbtn">Photos 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#">Photos Link 1</a>
+                  <a href="#">Photos Link 2</a>
+                  <a href="#">Photos Link 3</a>
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn">Videos 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#">Videos Link 1</a>
+                  <a href="#">Videos Link 2</a>
+                  <a href="#">Videos Link 3</a>
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn">Events 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#">Events Link 1</a>
+                  <a href="#">Events Link 2</a>
+                  <a href="#">Events Link 3</a>
+                </div>
+              </div>
+    </div>    
+    
+    <h1>Valeriy Yurchenko</h1>
+    <br>
+    <h2>Professional Downhill Mountain Bike Racer</h2>
+    <p>Born in Lviv on August 18, 1992.<br>Riding bicycle from 1996.<br>First took part in official competitions in 2014.</p>
+
+    <h1>Photos</h1>
+    
+<!--temporary testing
+        <div class="block">
+        	<div class="element">
+        		<a href="">
+        			<div class="img">
+        				<img src="div-primer-1.jpg">
+        			</div>
+        			<div class="text">Море</div>
+        		</a>
+        	</div>
+        	
+        	<div class="element">
+        		<a href="">
+        			<div class="img">
+        				<img src="div-primer-2.jpg">
+        			</div>
+        			<div class="text">Горы</div>
+        		</a>
+        	</div>
+        </div>
+temporary testing END-->
+    
+    <br>
+    <h1>Videos</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/MBn8Tl_2wYQ?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    
+    <h1>Upcoming events</h1>
+    
+    <h1>Contact</h1>
+        <form method="POST" action="https://formspree.io/leon61@ukr.net">
+            <label for="client-name">Name:</label>
+            <input id="client-name" type="text" 
+                placeholder="Name" name="client-name"
+                required>
+            <br>
+            <label>Email:
+                <input type="email" name="client-email"
+                placeholder="Email" required>
+            </label>
+            <br>
+            <label for="text_message">Message:</label>
+            <textarea id="text_message" name="text_message" rows="5" cols="100"
+                placeholder="Message" required></textarea>
+            <br><br>
+            <br>
+            <input type="submit">
+        </form>
+    
+</body>
+</html>
